@@ -4,75 +4,75 @@ const Index = () => {
 
     return (
         <React.Fragment>
-            <main class="main_content">
-                <div class="main_content_slide j_slide">
-                    <a class="j_slide_item" href="#"><img src="./public/img/uploads/featured-01.jpg" /></a>
-                    <a class="j_slide_item" href="#"><img src="./public/img/uploads/featured-02.jpg" /></a>
-                    <a class="j_slide_item" href="#"><img src="./public/img/uploads/featured-03.jpg" /></a>
-                    <div class="j_slide_nav"><span class="rounded transition"></span><span class="rounded transition"></span>
+            <main className="main_content">
+                <div className="main_content_slide j_slide">
+                    <a className="j_slide_item" href="#"><img src="/img/uploads/featured-01.jpg" /></a>
+                    <a className="j_slide_item" href="#"><img src="/img/uploads/featured-02.jpg" /></a>
+                    <a className="j_slide_item" href="#"><img src="/img/uploads/featured-03.jpg" /></a>
+                    <div className="j_slide_nav"><span class="rounded transition"></span><span className="rounded transition"></span>
                     </div>
                 </div>
 
-                <section class="pdt_gallery">
-                    <div class="container">
-                        <header class="main_content_header">
-                            <h1 class="main_content_header_title">Ofertas da semana:</h1>
+                <section className="pdt_gallery">
+                    <div className="container">
+                        <header className="main_content_header">
+                            <h1 className="main_content_header_title">Ofertas da semana:</h1>
                         </header>
 
-                        <div class="flex">
-                            <div class="pdt_gallery_list pdt_gallery_featured ">
-                                <article class="pdt_gallery_item flex-2">
-                                    <a href="#"><img src="./public/img/uploads/products/06.jpg" alt="" /></a>
-                                    <header class="pdt_gallery_item_desc">
-                                        <h2 class="pdt_gallery_item_desc_title"></h2>
-                                        <div class="pdt_gallery_item_desc_price">
+                        <div className="flex">
+                            <div className="pdt_gallery_list pdt_gallery_featured ">
+                                <article className="pdt_gallery_item flex-2">
+                                    <a href="#"><img src="/img/uploads/products/06.jpg" alt="" /></a>
+                                    <header className="pdt_gallery_item_desc">
+                                        <h2 className="pdt_gallery_item_desc_title"></h2>
+                                        <div className="pdt_gallery_item_desc_price">
                                             <p><b>R$ 59,90</b><span>R$ 99,99</span></p>
                                         </div>
                                         <p>2X R$ 19,95</p>
                                     </header>
                                 </article>
                             </div>
-                            <div class="pdt_gallery_list flex">
+                            <div className="pdt_gallery_list flex">
 
-                                <article class="pdt_gallery_item flex-2">
-                                    <a href="#" title=""><img alt="" title="" src="./public/img/uploads/products/07.jpg" /></a>
-                                    <header class="pdt_gallery_item_desc">
-                                        <h2 class="pdt_gallery_item_desc_title"><a class="transition" href="#" title="">Calça
+                                <article className="pdt_gallery_item flex-2">
+                                    <a href="#" title=""><img alt="" title="" src="/img/uploads/products/07.jpg" /></a>
+                                    <header className="pdt_gallery_item_desc">
+                                        <h2 className="pdt_gallery_item_desc_title"><a className="transition" href="#" title="">Calça
                                         Moletom Confort Mama Latina</a></h2>
-                                        <div class="pdt_gallery_item_desc_price">
+                                        <div className="pdt_gallery_item_desc_price">
                                             <p><b>R$ 59,90</b> <span>R$ 99,90</span></p>
                                         </div>
                                         <p>2x R$ 29,95</p>
                                     </header>
                                 </article>
-                                <article class="pdt_gallery_item flex-2">
-                                    <a href="#" title=""><img alt="" title="" src="./public/img/uploads/products/08.jpg" /></a>
-                                    <header class="pdt_gallery_item_desc">
-                                        <h2 class="pdt_gallery_item_desc_title"><a class="transition" href="#" title="">Calça
+                                <article className="pdt_gallery_item flex-2">
+                                    <a href="#" title=""><img alt="" title="" src="/img/uploads/products/08.jpg" /></a>
+                                    <header className="pdt_gallery_item_desc">
+                                        <h2 className="pdt_gallery_item_desc_title"><a className="transition" href="#" title="">Calça
                                         Moletom Confort Mama Latina</a></h2>
-                                        <div class="pdt_gallery_item_desc_price">
+                                        <div className="pdt_gallery_item_desc_price">
                                             <p><b>R$ 59,90</b> <span>R$ 99,90</span></p>
                                         </div>
                                         <p>2x R$ 29,95</p>
                                     </header>
                                 </article>
-                                <article class="pdt_gallery_item flex-2">
-                                    <a href="#" title=""><img alt="" title="" src="./public/img/uploads/products/09.jpg" /></a>
-                                    <header class="pdt_gallery_item_desc">
-                                        <h2 class="pdt_gallery_item_desc_title"><a class="transition" href="#" title="">Calça
+                                <article className="pdt_gallery_item flex-2">
+                                    <a href="#" title=""><img alt="" title="" src="/img/uploads/products/09.jpg" /></a>
+                                    <header className="pdt_gallery_item_desc">
+                                        <h2 className="pdt_gallery_item_desc_title"><a class="transition" href="#" title="">Calça
                                         Moletom Confort Mama Latina</a></h2>
-                                        <div class="pdt_gallery_item_desc_price">
+                                        <div className="pdt_gallery_item_desc_price">
                                             <p><b>R$ 59,90</b> <span>R$ 99,90</span></p>
                                         </div>
                                         <p>2x R$ 29,95</p>
                                     </header>
                                 </article>
-                                <article class="pdt_gallery_item flex-2">
-                                    <a href="#" title=""><img alt="" title="" src="./public/img/uploads/products/10.jpg" /></a>
-                                    <header class="pdt_gallery_item_desc">
-                                        <h2 class="pdt_gallery_item_desc_title"><a class="transition" href="#" title="">Calça
+                                <article className="pdt_gallery_item flex-2">
+                                    <a href="#" title=""><img alt="" title="" src="/img/uploads/products/10.jpg" /></a>
+                                    <header className="pdt_gallery_item_desc">
+                                        <h2 className="pdt_gallery_item_desc_title"><a className="transition" href="#" title="">Calça
                                         Moletom Confort Mama Latina</a></h2>
-                                        <div class="pdt_gallery_item_desc_price">
+                                        <div className="pdt_gallery_item_desc_price">
                                             <p><b>R$ 59,90</b> <span>R$ 99,90</span></p>
                                         </div>
                                         <p>2x R$ 29,95</p>
@@ -83,46 +83,46 @@ const Index = () => {
                         </div>
 
 
-                        <div class="pdt_gallery_normalize">
-                            <img class="pdt_gallery_item pdt_gallery_banner" src="./public/img/uploads/featured-02.jpg" />
+                        <div className="pdt_gallery_normalize">
+                            <img className="pdt_gallery_item pdt_gallery_banner" src="/img/uploads/featured-02.jpg" />
                         </div>
 
-                        <div class="pdt_gallery_normalize flex flex-2">
-                            <article class="pdt_gallery_item flex-2">
-                                <a href="#"><img src="./public/img/uploads/products/06.jpg" alt="" /></a>
-                                <header class="pdt_gallery_item_desc">
-                                    <h2 class="pdt_gallery_item_desc_title"></h2>
-                                    <div class="pdt_gallery_item_desc_price">
+                        <div className="pdt_gallery_normalize flex flex-2">
+                            <article className="pdt_gallery_item flex-2">
+                                <a href="#"><img src="/img/uploads/products/06.jpg" alt="" /></a>
+                                <header className="pdt_gallery_item_desc">
+                                    <h2 className="pdt_gallery_item_desc_title"></h2>
+                                    <div className="pdt_gallery_item_desc_price">
                                         <p><b>R$ 59,90</b><span>R$ 99,99</span></p>
                                     </div>
                                     <p>2X R$ 19,95</p>
                                 </header>
                             </article>
-                            <article class="pdt_gallery_item flex-2">
-                                <a href="#"><img src="./public/img/uploads/products/06.jpg" alt="" /></a>
-                                <header class="pdt_gallery_item_desc">
-                                    <h2 class="pdt_gallery_item_desc_title"></h2>
-                                    <div class="pdt_gallery_item_desc_price">
+                            <article className="pdt_gallery_item flex-2">
+                                <a href="#"><img src="/img/uploads/products/06.jpg" alt="" /></a>
+                                <header className="pdt_gallery_item_desc">
+                                    <h2 className="pdt_gallery_item_desc_title"></h2>
+                                    <div className="pdt_gallery_item_desc_price">
                                         <p><b>R$ 59,90</b><span>R$ 99,99</span></p>
                                     </div>
                                     <p>2X R$ 19,95</p>
                                 </header>
                             </article>
-                            <article class="pdt_gallery_item flex-2">
-                                <a href="#"><img src="./public/img/uploads/products/06.jpg" alt="" /></a>
-                                <header class="pdt_gallery_item_desc">
-                                    <h2 class="pdt_gallery_item_desc_title"></h2>
-                                    <div class="pdt_gallery_item_desc_price">
+                            <article className="pdt_gallery_item flex-2">
+                                <a href="#"><img src="/img/uploads/products/06.jpg" alt="" /></a>
+                                <header className="pdt_gallery_item_desc">
+                                    <h2 className="pdt_gallery_item_desc_title"></h2>
+                                    <div className="pdt_gallery_item_desc_price">
                                         <p><b>R$ 59,90</b><span>R$ 99,99</span></p>
                                     </div>
                                     <p>2X R$ 19,95</p>
                                 </header>
                             </article>
-                            <article class="pdt_gallery_item flex-2">
-                                <a href="#"><img src="./public/img/uploads/products/06.jpg" alt="" /></a>
-                                <header class="pdt_gallery_item_desc">
-                                    <h2 class="pdt_gallery_item_desc_title"></h2>
-                                    <div class="pdt_gallery_item_desc_price">
+                            <article className="pdt_gallery_item flex-2">
+                                <a href="#"><img src="/img/uploads/products/06.jpg" alt="" /></a>
+                                <header className="pdt_gallery_item_desc">
+                                    <h2 className="pdt_gallery_item_desc_title"></h2>
+                                    <div className="pdt_gallery_item_desc_price">
                                         <p><b>R$ 59,90</b><span>R$ 99,99</span></p>
                                     </div>
                                     <p>2X R$ 19,95</p>
@@ -132,128 +132,19 @@ const Index = () => {
                     </div>
                 </section>
 
-                <section class="pdt_gallery pdt_select">
-                    <div class="container">
-                        <header class="pdt_select_header">
-                            <h1><span class="j_tabs_nav transition radius">Eles</span><span
-                                class="j_tabs_nav transition radius">Elas</span></h1>
+                <section className="pdt_gallery pdt_select">
+                    <div className="container">
+                        <header className="pdt_select_header">
+                            <h1><span className="j_tabs_nav transition radius">Eles</span><span
+                                className="j_tabs_nav transition radius">Elas</span></h1>
                         </header>
-                        <div class="j_tabs">
-                            <div class="j_tabs_item">
-                                <div class="flex">
-                                    <div class="pdt_gallery_list pdt_gallery_featured">
-                                        <article class="pdt_gallery_item flex-2">
-                                            <a href="#" title=""><img alt="" title=""
-                                                src="./public/img/uploads/products/12.jpg" /></a>
-                                            <header class="pdt_gallery_item_desc">
-                                                <h2 class="pdt_gallery_item_desc_title"><a class="transition" href="#"
-                                                    title="">Calça Moletom Confort Mama Latina</a></h2>
-                                                <div class="pdt_gallery_item_desc_price">
-                                                    <p><b>R$ 59,90</b> <span>R$ 99,90</span></p>
-                                                </div>
-                                                <p>2x R$ 29,95</p>
-                                            </header>
-                                        </article>
-                                    </div>
-                                    <div class="pdt_gallery_list flex">
-
-                                        <article class="pdt_gallery_item flex-2">
-                                            <a href="#" title=""><img alt="" title=""
-                                                src="./public/img/uploads/products/11.jpg" /></a>
-                                            <header class="pdt_gallery_item_desc">
-                                                <h2 class="pdt_gallery_item_desc_title"><a class="transition" href="#"
-                                                    title="">Calça Moletom Confort Mama Latina</a></h2>
-                                                <div class="pdt_gallery_item_desc_price">
-                                                    <p><b>R$ 59,90</b> <span>R$ 99,90</span></p>
-                                                </div>
-                                                <p>2x R$ 29,95</p>
-                                            </header>
-                                        </article>
-                                        <article class="pdt_gallery_item flex-2">
-                                            <a href="#" title=""><img alt="" title=""
-                                                src="./public/img/uploads/products/11.jpg" /></a>
-                                            <header class="pdt_gallery_item_desc">
-                                                <h2 class="pdt_gallery_item_desc_title"><a class="transition" href="#"
-                                                    title="">Calça Moletom Confort Mama Latina</a></h2>
-                                                <div class="pdt_gallery_item_desc_price">
-                                                    <p><b>R$ 59,90</b> <span>R$ 99,90</span></p>
-                                                </div>
-                                                <p>2x R$ 29,95</p>
-                                            </header>
-                                        </article>
-                                        <article class="pdt_gallery_item flex-2">
-                                            <a href="#" title=""><img alt="" title=""
-                                                src="./public/img/uploads/products/13.jpg" /></a>
-                                            <header class="pdt_gallery_item_desc">
-                                                <h2 class="pdt_gallery_item_desc_title"><a class="transition" href="#"
-                                                    title="">Calça Moletom Confort Mama Latina</a></h2>
-                                                <div class="pdt_gallery_item_desc_price">
-                                                    <p><b>R$ 59,90</b> <span>R$ 99,90</span></p>
-                                                </div>
-                                                <p>2x R$ 29,95</p>
-                                            </header>
-                                        </article>
-                                        <article class="pdt_gallery_item flex-2">
-                                            <a href="#" title=""><img alt="" title=""
-                                                src="./public/img/uploads/products/14.jpg" /></a>
-                                            <header class="pdt_gallery_item_desc">
-                                                <h2 class="pdt_gallery_item_desc_title"><a class="transition" href="#"
-                                                    title="">Calça Moletom Confort Mama Latina</a></h2>
-                                                <div class="pdt_gallery_item_desc_price">
-                                                    <p><b>R$ 59,90</b> <span>R$ 99,90</span></p>
-                                                </div>
-                                                <p>2x R$ 29,95</p>
-                                            </header>
-                                        </article>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="j_tabs_item">
-                                <div class="flex">
-                                    <div class="pdt_gallery_list pdt_gallery_featured">
-                                        <article class="pdt_gallery_item flex-2">
-                                            <a href="#" title=""><img alt="" title=""
-                                                src="./public/img/uploads/products/09.jpg" /></a>
-                                            <header class="pdt_gallery_item_desc">
-                                                <h2 class="pdt_gallery_item_desc_title"><a class="transition" href="#"
-                                                    title="">Calça Moletom Confort Mama Latina</a></h2>
-                                                <div class="pdt_gallery_item_desc_price">
-                                                    <p><b>R$ 59,90</b> <span>R$ 99,90</span></p>
-                                                </div>
-                                                <p>2x R$ 29,95</p>
-                                            </header>
-                                        </article>
-                                    </div>
-                                    <div class="pdt_gallery_list flex">
-
-                                        <article class="pdt_gallery_item flex-2">
-                                            <a href="#" title=""><img alt="" title=""
-                                                src="./public/img/uploads/products/09.jpg" /></a>
-                                            <header class="pdt_gallery_item_desc">
-                                                <h2 class="pdt_gallery_item_desc_title"><a class="transition" href="#"
-                                                    title="">Calça Moletom Confort Mama Latina</a></h2>
-                                                <div class="pdt_gallery_item_desc_price">
-                                                    <p><b>R$ 59,90</b> <span>R$ 99,90</span></p>
-                                                </div>
-                                                <p>2x R$ 29,95</p>
-                                            </header>
-                                        </article>
+                        <div className="j_tabs">
+                            <div className="j_tabs_item">
+                                <div className="flex">
+                                    <div className="pdt_gallery_list pdt_gallery_featured">
                                         <article className="pdt_gallery_item flex-2">
                                             <a href="#" title=""><img alt="" title=""
-                                                src="./" /></a>
-                                            <header class="pdt_gallery_item_desc">
-                                                <h2 class="pdt_gallery_item_desc_title"><a class="transition" href="#"
-                                                    title="">Calça Moletom Confort Mama Latina</a></h2>
-                                                <div class="pdt_gallery_item_desc_price">
-                                                    <p><b>R$ 59,90</b> <span>R$ 99,90</span></p>
-                                                </div>
-                                                <p>2x R$ 29,95</p>
-                                            </header>
-                                        </article>
-                                        <article className="pdt_gallery_item flex-2">
-                                            <a href="#" title=""><img alt="" title=""
-                                                src="./public/img/uploads/products/07.jpg" /></a>
+                                                src="/img/uploads/products/12.jpg" /></a>
                                             <header className="pdt_gallery_item_desc">
                                                 <h2 className="pdt_gallery_item_desc_title"><a class="transition" href="#"
                                                     title="">Calça Moletom Confort Mama Latina</a></h2>
@@ -263,9 +154,118 @@ const Index = () => {
                                                 <p>2x R$ 29,95</p>
                                             </header>
                                         </article>
+                                    </div>
+                                    <div className="pdt_gallery_list flex">
+
                                         <article className="pdt_gallery_item flex-2">
                                             <a href="#" title=""><img alt="" title=""
-                                                src="./public/img/uploads/products/05.jpg" /></a>
+                                                src="/img/uploads/products/11.jpg" /></a>
+                                            <header className="pdt_gallery_item_desc">
+                                                <h2 className="pdt_gallery_item_desc_title"><a className="transition" href="#"
+                                                    title="">Calça Moletom Confort Mama Latina</a></h2>
+                                                <div className="pdt_gallery_item_desc_price">
+                                                    <p><b>R$ 59,90</b> <span>R$ 99,90</span></p>
+                                                </div>
+                                                <p>2x R$ 29,95</p>
+                                            </header>
+                                        </article>
+                                        <article className="pdt_gallery_item flex-2">
+                                            <a href="#" title=""><img alt="" title=""
+                                                src="/img/uploads/products/11.jpg" /></a>
+                                            <header className="pdt_gallery_item_desc">
+                                                <h2 className="pdt_gallery_item_desc_title"><a className="transition" href="#"
+                                                    title="">Calça Moletom Confort Mama Latina</a></h2>
+                                                <div className="pdt_gallery_item_desc_price">
+                                                    <p><b>R$ 59,90</b> <span>R$ 99,90</span></p>
+                                                </div>
+                                                <p>2x R$ 29,95</p>
+                                            </header>
+                                        </article>
+                                        <article className="pdt_gallery_item flex-2">
+                                            <a href="#" title=""><img alt="" title=""
+                                                src="/img/uploads/products/13.jpg" /></a>
+                                            <header className="pdt_gallery_item_desc">
+                                                <h2 className="pdt_gallery_item_desc_title"><a className="transition" href="#"
+                                                    title="">Calça Moletom Confort Mama Latina</a></h2>
+                                                <div className="pdt_gallery_item_desc_price">
+                                                    <p><b>R$ 59,90</b> <span>R$ 99,90</span></p>
+                                                </div>
+                                                <p>2x R$ 29,95</p>
+                                            </header>
+                                        </article>
+                                        <article className="pdt_gallery_item flex-2">
+                                            <a href="#" title=""><img alt="" title=""
+                                                src="/img/uploads/products/14.jpg" /></a>
+                                            <header className="pdt_gallery_item_desc">
+                                                <h2 className="pdt_gallery_item_desc_title"><a className="transition" href="#"
+                                                    title="">Calça Moletom Confort Mama Latina</a></h2>
+                                                <div className="pdt_gallery_item_desc_price">
+                                                    <p><b>R$ 59,90</b> <span>R$ 99,90</span></p>
+                                                </div>
+                                                <p>2x R$ 29,95</p>
+                                            </header>
+                                        </article>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="j_tabs_item">
+                                <div className="flex">
+                                    <div className="pdt_gallery_list pdt_gallery_featured">
+                                        <article className="pdt_gallery_item flex-2">
+                                            <a href="#" title=""><img alt="" title=""
+                                                src="/img/uploads/products/09.jpg" /></a>
+                                            <header className="pdt_gallery_item_desc">
+                                                <h2 className="pdt_gallery_item_desc_title"><a className="transition" href="#"
+                                                    title="">Calça Moletom Confort Mama Latina</a></h2>
+                                                <div className="pdt_gallery_item_desc_price">
+                                                    <p><b>R$ 59,90</b> <span>R$ 99,90</span></p>
+                                                </div>
+                                                <p>2x R$ 29,95</p>
+                                            </header>
+                                        </article>
+                                    </div>
+                                    <div className="pdt_gallery_list flex">
+
+                                        <article className="pdt_gallery_item flex-2">
+                                            <a href="#" title=""><img alt="" title=""
+                                                src="/img/uploads/products/09.jpg" /></a>
+                                            <header className="pdt_gallery_item_desc">
+                                                <h2 className="pdt_gallery_item_desc_title"><a className="transition" href="#"
+                                                    title="">Calça Moletom Confort Mama Latina</a></h2>
+                                                <div className="pdt_gallery_item_desc_price">
+                                                    <p><b>R$ 59,90</b> <span>R$ 99,90</span></p>
+                                                </div>
+                                                <p>2x R$ 29,95</p>
+                                            </header>
+                                        </article>
+                                        <article className="pdt_gallery_item flex-2">
+                                            <a href="#" title=""><img alt="" title=""
+                                                src="./" /></a>
+                                            <header className="pdt_gallery_item_desc">
+                                                <h2 className="pdt_gallery_item_desc_title"><a className="transition" href="#"
+                                                    title="">Calça Moletom Confort Mama Latina</a></h2>
+                                                <div className="pdt_gallery_item_desc_price">
+                                                    <p><b>R$ 59,90</b> <span>R$ 99,90</span></p>
+                                                </div>
+                                                <p>2x R$ 29,95</p>
+                                            </header>
+                                        </article>
+                                        <article className="pdt_gallery_item flex-2">
+                                            <a href="#" title=""><img alt="" title=""
+                                                src="/img/uploads/products/07.jpg" /></a>
+                                            <header className="pdt_gallery_item_desc">
+                                                <h2 className="pdt_gallery_item_desc_title"><a className="transition" href="#"
+                                                    title="">Calça Moletom Confort Mama Latina</a></h2>
+                                                <div className="pdt_gallery_item_desc_price">
+                                                    <p><b>R$ 59,90</b> <span>R$ 99,90</span></p>
+                                                </div>
+                                                <p>2x R$ 29,95</p>
+                                            </header>
+                                        </article>
+                                        <article className="pdt_gallery_item flex-2">
+                                            <a href="#" title=""><img alt="" title=""
+                                                src="/img/uploads/products/05.jpg" /></a>
                                             <header className="pdt_gallery_item_desc">
                                                 <h2 className="pdt_gallery_item_desc_title"><a class="transition" href="#"
                                                     title="">Calça Moletom Confort Mama Latina</a></h2>
@@ -293,7 +293,7 @@ const Index = () => {
 
                             <article className="blog_gallery_item transition flex-3">
                                 <a href="" title="">
-                                    <img alt="" title="" src="./public/img/uploads/blog/03.jpg" />
+                                    <img alt="" title="" src="/img/uploads/blog/03.jpg" />
                                 </a>
                                 <header>
                                     <h2><a className="transition" title="" href="">Lorem Ipsum is simply dummy text of the printing
@@ -302,7 +302,7 @@ const Index = () => {
                             </article>
                             <article className="blog_gallery_item transition flex-3">
                                 <a href="" title="">
-                                    <img alt="" title="" src="./public/img/uploads/blog/04.jpg" />
+                                    <img alt="" title="" src="/img/uploads/blog/04.jpg" />
                                 </a>
                                 <header>
                                     <h2><a className="transition" title="" href="">Lorem Ipsum is simply dummy text of the printing
@@ -311,7 +311,7 @@ const Index = () => {
                             </article>
                             <article className="blog_gallery_item transition flex-3">
                                 <a href="" title="">
-                                    <img alt="" title="" src="./public/img/uploads/blog/05.jpg" />
+                                    <img alt="" title="" src="/img/uploads/blog/05.jpg" />
                                 </a>
                                 <header>
                                     <h2><a className="transition" title="" href="">Lorem Ipsum is simply dummy text of the printing
@@ -320,7 +320,7 @@ const Index = () => {
                             </article>
                             <article className="blog_gallery_item transition flex-3">
                                 <a href="" title="">
-                                    <img alt="" title="" src="./public/img/uploads/blog/04.jpg" />
+                                    <img alt="" title="" src="/img/uploads/blog/04.jpg" />
                                 </a>
                                 <header>
                                     <h2><a className="transition" title="" href="">Lorem Ipsum is simply dummy text of the printing
@@ -329,7 +329,7 @@ const Index = () => {
                             </article>
                             <article className="blog_gallery_item transition flex-3">
                                 <a href="" title="">
-                                    <img alt="" title="" src="./public/img/uploads/blog/03.jpg" />
+                                    <img alt="" title="" src="/img/uploads/blog/03.jpg" />
                                 </a>
                                 <header>
                                     <h2><a className="transition" title="" href="">Lorem Ipsum is simply dummy text of the printing
@@ -338,7 +338,7 @@ const Index = () => {
                             </article>
                             <article className="blog_gallery_item transition flex-3">
                                 <a href="" title="">
-                                    <img alt="" title="" src="./public/img/uploads/blog/02.jpg" />
+                                    <img alt="" title="" src="/img/uploads/blog/02.jpg" />
                                 </a>
                                 <header>
                                     <h2><a className="transition" title="" href="">Lorem Ipsum is simply dummy text of the printing
@@ -353,9 +353,6 @@ const Index = () => {
 
 
             </main>
-            <script src="/jquery.js"></script>
-            <script src="/scripts.js"></script>
-            <script src="/css/themes/script.js"></script>
         </React.Fragment>
     );
 }

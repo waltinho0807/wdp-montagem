@@ -1,4 +1,8 @@
-$(function () {
+import $ from './jquery';
+
+if (typeof window !== "undefined") {
+  $(function () {
+      console.log($)
     //J_SLIDE
     if ($(".j_slide").length) {
         function jSlide() {
@@ -86,5 +90,6 @@ $(function () {
         var anchor = $($(this).attr("data-anchor"));
         $("html, body").animate({scrollTop: anchor.offset().top}, 1000);
     });
+  });
+}
 
-});

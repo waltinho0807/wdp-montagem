@@ -2,9 +2,6 @@ import '../public/css/boot.css';
 import '../public/css/icons.css';
 import '../public/css/themes/style.css';
 import '../public/jquery';
-
-import { findDOMNode } from 'react-dom';
-import {$} from 'jquery';
 import '../public/scripts';
 import App from "next/app";
 import axios from 'axios';
@@ -59,10 +56,9 @@ class MyApp extends App {
     }
     
 
-    componentDidMount(){
-        window.addEventListener('storage', this.syncLogout);
-        require($)(window);
-    }
+    componentDidMount() {
+        window.addEventListener("storage", this.syncLogout);
+      }
 
     syncLogout = e => {
         if(e.key === 'logout'){

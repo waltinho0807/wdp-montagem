@@ -1,5 +1,6 @@
 import '../public/css/boot.css';
 import '../public/css/icons.css';
+import '../public/nprogress.css';
 import '../public/css/themes/style.css';
 import '../public/jquery';
 import '../public/scripts';

@@ -1,6 +1,6 @@
 $(function () {
     //URL BASE DO PROJETO
-    getBase = $("link[rel='base']").attr("href");
+    getBase = $("link[rel='http://localhost:3000']").attr("href");
 
     $(".jtheme_login").click(function (e) {
         e.preventDefault();
@@ -12,12 +12,12 @@ $(function () {
             loginBox += '<h1>Fazer Login:</h1>';
             loginBox += '<p>Informe seu nome e e-mail para fazer login e acessar seus pedidos.</p>';
             loginBox += '</header>';
-            loginBox += '<form>';
-            loginBox += '<input class="radius" type="email" placeholder="E-mail:"/>';
-            loginBox += '<input class="radius" type="password" placeholder="Senha:"/>';
-            loginBox += '<a class="btn transition radius icon-success" href="' + getBase + '/conta" title="Minha conta">Fazer Login</a>';
+            loginBox += '<form onSubmit={handleSubmit()}>';
+            loginBox += '<input class="radius" type="email" name="email" value={user.email} onChange={handleChange()} placeholder="E-mail:"/>';
+            loginBox += '<input class="radius" type="password" name="password" value={user.password} onChange={handleChange()} placeholder="Senha:"/>';
+            loginBox += '<a class="btn transition radius icon-success" href="/admin/orders" title="Minha conta">Fazer Login</a>';
             loginBox += '</form>';
-            loginBox += '<a href="#" title="Recuperar senha" class="theme_login_box_recover transition icon-alert">Esqueci minha senha</a>';
+            loginBox += '<button href="#" title="Recuperar senha" class="theme_login_box_recover transition icon-alert" type="submit">Esqueci minha senha</button>';
             loginBox += '</div>';
             loginBox += '</div>';
 

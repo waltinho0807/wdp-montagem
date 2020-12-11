@@ -1133,6 +1133,15 @@
 .main_account_content_item_desc a:hover{
     color: var(--themeColorA_h);
 }
+.order-history-area {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  
+  .order-history-area .ui .ui.icon.header {
+    display: block;
+    margin-bottom: 10px;
+  }
 
 @media(max-width: 62em){
     .main_category_products_content .pdt_gallery_item{

@@ -4,7 +4,7 @@ import {Modal} from 'semantic-ui-react';
 const INITIAL_USER = {
     email: '',
     password: ''
-};
+}
 
 const ModalLogin = () => {
     const [user, setUser] = React.useState(INITIAL_USER);

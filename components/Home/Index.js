@@ -9,7 +9,7 @@ const Index = () => {
                     <a className="j_slide_item" href="#"><img src="/img/uploads/featured-01.jpg" /></a>
                     <a className="j_slide_item" href="#"><img src="/img/uploads/featured-02.jpg" /></a>
                     <a className="j_slide_item" href="#"><img src="/img/uploads/featured-03.jpg" /></a>
-                    <div className="j_slide_nav"><span class="rounded transition"></span><span className="rounded transition"></span>
+                    <div className="j_slide_nav"><span className="rounded transition"></span><span className="rounded transition"></span>
                     </div>
                 </div>
 
@@ -59,7 +59,7 @@ const Index = () => {
                                 <article className="pdt_gallery_item flex-2">
                                     <a href="#" title=""><img alt="" title="" src="/img/uploads/products/09.jpg" /></a>
                                     <header className="pdt_gallery_item_desc">
-                                        <h2 className="pdt_gallery_item_desc_title"><a class="transition" href="#" title="">Calça
+                                        <h2 className="pdt_gallery_item_desc_title"><a className="transition" href="#" title="">Calça
                                         Moletom Confort Mama Latina</a></h2>
                                         <div className="pdt_gallery_item_desc_price">
                                             <p><b>R$ 59,90</b> <span>R$ 99,90</span></p>
@@ -146,7 +146,7 @@ const Index = () => {
                                             <a href="#" title=""><img alt="" title=""
                                                 src="/img/uploads/products/12.jpg" /></a>
                                             <header className="pdt_gallery_item_desc">
-                                                <h2 className="pdt_gallery_item_desc_title"><a class="transition" href="#"
+                                                <h2 className="pdt_gallery_item_desc_title"><a className="transition" href="#"
                                                     title="">Calça Moletom Confort Mama Latina</a></h2>
                                                 <div className="pdt_gallery_item_desc_price">
                                                     <p><b>R$ 59,90</b> <span>R$ 99,90</span></p>
@@ -267,7 +267,7 @@ const Index = () => {
                                             <a href="#" title=""><img alt="" title=""
                                                 src="/img/uploads/products/05.jpg" /></a>
                                             <header className="pdt_gallery_item_desc">
-                                                <h2 className="pdt_gallery_item_desc_title"><a class="transition" href="#"
+                                                <h2 className="pdt_gallery_item_desc_title"><a className="transition" href="#"
                                                     title="">Calça Moletom Confort Mama Latina</a></h2>
                                                 <div className="pdt_gallery_item_desc_price">
                                                     <p><b>R$ 59,90</b> <span>R$ 99,90</span></p>

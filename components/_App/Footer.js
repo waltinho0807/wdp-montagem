@@ -55,7 +55,7 @@ const Footer = ({user}) => {
                     <img alt="WdpShoes" title="WdpShoes" src="/css/themes/logo/wdpshoes_logo_black.png" />
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                 </div>
-                <nav class="main_footer_bottom_social">
+                <nav className="main_footer_bottom_social">
                     <a title="" href="#" className="icon-facebook icon-notext transition"></a>
                     <a title="" href="#" className="icon-instagram icon-notext transition"></a>
                     <a title="" href="#" className="icon-youtube icon-notext transition"></a>

@@ -76,21 +76,21 @@ const ProductDetail = () => {
                                 <p>2x R$ 29,95</p>
                             </header>
                         </article>
-                        <article class="pdt_gallery_item flex-2">
+                        <article className="pdt_gallery_item flex-2">
                             <a href="produto" title=""><img alt="" title="" src="/img/uploads/products/06.jpg" /></a>
-                            <header class="pdt_gallery_item_desc">
-                                <h2 class="pdt_gallery_item_desc_title"><a class="transition" href="produto" title="">Calça Moletom Confort Mama Latina</a></h2>
-                                <div class="pdt_gallery_item_desc_price">
+                            <header className="pdt_gallery_item_desc">
+                                <h2 className="pdt_gallery_item_desc_title"><a className="transition" href="produto" title="">Calça Moletom Confort Mama Latina</a></h2>
+                                <div className="pdt_gallery_item_desc_price">
                                     <p><b>R$ 59,90</b> <span>R$ 99,90</span></p>
                                 </div>
                                 <p>2x R$ 29,95</p>
                             </header>
                         </article>
-                        <article class="pdt_gallery_item flex-2">
+                        <article className="pdt_gallery_item flex-2">
                             <a href="produto" title=""><img alt="" title="" src="/img/uploads/products/07.jpg" /></a>
-                            <header class="pdt_gallery_item_desc">
-                                <h2 class="pdt_gallery_item_desc_title"><a class="transition" href="produto" title="">Calça Moletom Confort Mama Latina</a></h2>
-                                <div class="pdt_gallery_item_desc_price">
+                            <header className="pdt_gallery_item_desc">
+                                <h2 className="pdt_gallery_item_desc_title"><a className="transition" href="produto" title="">Calça Moletom Confort Mama Latina</a></h2>
+                                <div className="pdt_gallery_item_desc_price">
                                     <p><b>R$ 59,90</b> <span>R$ 99,90</span></p>
                                 </div>
                                 <p>2x R$ 29,95</p>

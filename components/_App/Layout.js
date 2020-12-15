@@ -19,7 +19,7 @@ const Layout = ({ children, user }) => {
                 <link rel="stylesheet" href="/css/boot.css" />
                 <link rel="stylesheet" href="/css/themes/style.css" />
                 <link rel="shortcut icon" href="/css/themes/logo/favicon.png" />
-                <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+                
             </Head>
            
             <StaticHeader user={user} />

@@ -1,3 +1,4 @@
+import 'semantic-ui-css/semantic.min.css';
 import '../public/css/boot.css';
 import '../public/css/icons.css';
 import '../public/nprogress.css';
@@ -9,6 +10,7 @@ import axios from 'axios';
 import Router from 'next/router';
 import { parseCookies, destroyCookie } from 'nookies';
 import Layout from "../components/_App/Layout";
+import { redirectUser } from '../utils/auth'; 
 
 import baseUrl from '../utils/baseUrl';
 
@@ -45,15 +47,31 @@ class MyApp extends App {
                     redirectUser(ctx, '/products');
                 }
                 pageProps.user = user;
+                try{
+                    const payload2 = { headers: { Authorization: token } };
+                    const url2 = `${baseUrl}/api/cart`;
+                    const response2 = await axios.get(url2, payload2);
+                    const cart = response2.data;
+                    pageProps.cart = cart
+                    
+                }catch{
+                    console.log(cart)
+                }
             } catch (error) {
                 // console.error("Error getting current user", error);
                 //invalid token
                 destroyCookie(ctx, "token");
                 redirectUser(ctx, '/auth/login');
             }
+           
+
+            
         }
 
+
+
         return { pageProps }
+        
     }
     
 

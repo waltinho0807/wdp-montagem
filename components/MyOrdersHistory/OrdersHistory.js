@@ -1,10 +1,15 @@
 import React from 'react';
 
-const AllOrders = () => {
+const OrdersHistory = () => {
     return (
         <main className="main_content">
         <div className="container main_account">
-           
+            <nav className="main_account_sidebar">
+                <a className="radius transition active" href="#">Meus pedidos</a>
+                <a className="radius transition" href="#">Meus dados</a>
+                <a className="radius transition" href="#">Meus endereços</a>
+                <a className="radius transition" href="#">Sair</a>
+            </nav>
             <div className="main_account_content">
                 
                     <article className="main_account_content_item">
@@ -77,4 +82,4 @@ const AllOrders = () => {
     )
 }
 
-export default AllOrders;
+export default OrdersHistory;

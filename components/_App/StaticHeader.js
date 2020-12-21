@@ -13,26 +13,32 @@ Router.onRouteChangeError = () => NProgress.done();
 
 
 
-const StaticHeader = ({ user }) => {
+const StaticHeader = ({ user, cart }) => {
 
 
     const router = useRouter();
     const [menuActive, setMenuActive] = React.useState(false);
     const [search, setSearch] = React.useState({ search: '' });
 
-    //console.log(user)
+    console.log(user)
+    console.log(cart)
     const isRoot = user && user.role == 'root';
     const isAdmin = user && user.role == 'admin';
     const isRootOrAdmin = isRoot || isAdmin;
     const [modalIsOpen, setIsOpen] = React.useState(false);
 
-    function openModal() {
-        setIsOpen(true);
+
+
+
+
+    async function openModal(e) {
+
+        await setIsOpen(true);
     }
 
-    function closeModal() {
-        setIsOpen(false);
-        console.log("executed")
+    async function closeModal(e) {
+
+        await setIsOpen(false);
     }
 
     const isActive = (route) => {
@@ -54,24 +60,13 @@ const StaticHeader = ({ user }) => {
     const menuToggle = () => {
         setMenuActive(!menuActive)
     }
-     
-    const customStyles = {
-        content: {
-            top: '50%',
-            left: '50%',
-            right: 'auto',
-            bottom: 'auto',
-            marginRight: '-50%',
-            transform: 'translate(-50%, -50%)'
-        }
-    };
-
+    
     return (
         <header className="main_header">
             <div className="container">
                 <div className="main_header_nav">
                     <div className="main_header_nav_logo">
-                        <a href="" title="WdpShoes | Home">
+                        <a href="/" title="WdpShoes | Home">
                             <img alt="logo" title="logo menu" src="/css/themes/logo/wdpshoes_logo_white.png" />
                         </a>
                     </div>
@@ -82,27 +77,32 @@ const StaticHeader = ({ user }) => {
                         </form>
                     </div>
                     <div className="main_header_nav_menu">
-                        <a className="icon-cart icon-notext transition main_header_nav_menu_cart" href="/cart"><span>3</span></a>
+                        <a className="icon-cart icon-notext transition main_header_nav_menu_cart" href="/cart"><span>{cart.length}</span></a>
                         <div className="main_header_nav_menu_user">
-                            <a href="#" title="#" className="icon-user main_header_nav_menu_user_a radius transition" onClick={openModal} >
-                                {modalIsOpen && <ModalLogin isOpen={modalIsOpen} closeModal={closeModal}/> }
+                            {user ? (
+                                <>
+                                 <a href="#" title="#" className="icon-user main_header_nav_menu_user_a radius transition" >{user.name}</a>
+                                <nav className="radius">
+                                    {user.role === 'admin' && <a href="/admin/dashboard">Dasboard</a> }
+                                    <a href="/my-orders-history">Meus Pedidos</a>
+                                    <a href="#">Meus Pedeidos</a>
+                                    <a href="#">Meus endereços</a>
+                                    <a href="#" onClick={handleLogout}>Sair</a>
+                                </nav>
+                                </>) : (<a href="#" title="#" className="icon-user main_header_nav_menu_user_a radius transition" onClick={openModal} >Login</a>)}
+                           
 
-                            Login</a>
-                            <nav className="radius">
-                                <a href="#">Meus Pedidos</a>
-                                <a href="#">Meus Pedeidos</a>
-                                <a href="#">Meus endereços</a>
-                                <a href="#">Sair</a>
-                            </nav>
+                            {modalIsOpen && <ModalLogin isOpen={modalIsOpen} closeModal={closeModal} />}
+
                         </div>
                     </div>
                 </div>
 
                 <ul className="main_header_departments">
                     <li className="main_header_departments_li">
-                        Departamento
+                        Shop
                     <ul className="main_header_departments_li_ul">
-                            <li className="main_header_departments_li_ul_li"><a href="">Categoria</a></li>
+                            <li className="main_header_departments_li_ul_li"><a href="/products">Products</a></li>
                             <li className="main_header_departments_li_ul_li"><a href="">Categoria</a></li>
                             <li className="main_header_departments_li_ul_li"><a href="">Categoria</a></li>
                             <li className="main_header_departments_li_ul_li"><a href="">Categoria</a></li>

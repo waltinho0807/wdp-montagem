@@ -1143,6 +1143,132 @@
     margin-bottom: 10px;
   }
 
+  .create-new-products-area {
+    max-width: 900px;
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .create-new-products-area .ui.block.header {
+    background-color: #fff;
+    position: relative;
+    padding: 20px 0 20px 70px;
+  }
+  
+  .create-new-products-area .ui.block.header i {
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+    line-height: 1;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .create-new-products-area .ui.form {
+    background-color: var(--whiteColor);
+    border: none;
+    padding: 25px;
+  }
+  
+  .create-new-products-area .ui.form .field {
+    margin-bottom: 20px;
+  }
+  
+  .create-new-products-area .ui.form .field label {
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
+  
+  .create-new-products-area .ui.form .field input, .create-new-products-area .ui.form .field textarea {
+    height: 48px;
+    font-size: 15px;
+    padding: 0 15px 0 15px;
+    -webkit-transition: .5s;
+    transition: .5s;
+  }
+  
+  .create-new-products-area .ui.form .field input::Placeholder, .create-new-products-area .ui.form .field textarea::Placeholder {
+    color: #777777;
+  }
+  
+  .create-new-products-area .ui.form .field input:focus, .create-new-products-area .ui.form .field textarea:focus {
+    border-color: var(--mainColor);
+  }
+  
+  .create-new-products-area .ui.form .field input[type="file"] {
+    padding-top: 11px;
+  }
+  
+  .create-new-products-area .ui.form .field i.icon {
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+    line-height: 1;
+    width: auto;
+    color: var(--mainColor);
+    opacity: 1;
+    height: auto;
+    left: 15px;
+  }
+  
+  .create-new-products-area .ui.form .field textarea {
+    height: auto;
+    padding-top: 15px;
+  }
+  
+  .create-new-products-area .ui.form .field .dropdown {
+    height: 48px;
+    line-height: 48px;
+    position: relative;
+    padding: 0 0 0 15px;
+  }
+  
+  .create-new-products-area .ui.form .field .dropdown .icon {
+    position: absolute;
+    float: unset !important;
+    right: 15px;
+    left: auto;
+    margin: 0;
+    display: inline-block;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+  }
+  
+  .create-new-products-area .ui.form button {
+    min-height: auto;
+    line-height: unset;
+    display: block;
+    width: 100%;
+    font-size: 16px;
+    height: auto;
+    margin: 0;
+    padding-top: 13px;
+    padding-bottom: 15px;
+  }
+  
+  .create-new-products-area .ui.form button i {
+    display: none;
+  }
+  
+  .create-new-products-area .ui.form button:disabled {
+    opacity: .7 !important;
+  }
+  
+  .create-new-products-area .ui.form .disabled {
+    opacity: 1 !important;
+  }
+  
+  .create-new-products-area .ui.form .disabled.field {
+    margin-bottom: 0;
+  }
+  
+
 @media(max-width: 62em){
     .main_category_products_content .pdt_gallery_item{
         flex-basis: calc(50% - 20px);

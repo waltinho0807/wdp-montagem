@@ -1,7 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import ReactModal from 'react-modal';
+import axios from 'axios';
 import catchErrors from '../../utils/catchErrors';
+import baseUrl from '../../utils/baseUrl';
+import { handleLogin } from '../../utils/auth';
+import {Router} from 'next/router';
 
 const INITIAL_USER = {
     email: '',
@@ -23,6 +27,7 @@ const ModalLogin = ({isOpen, closeModal }) => {
     const handleChange = (e) => {
         const { name, value } = e.target;
         setUser(prevState => ({ ...prevState, [name]: value }));
+        console.log(name + value)
     }
 
     const handleSubmit = async e => {
@@ -34,8 +39,11 @@ const ModalLogin = ({isOpen, closeModal }) => {
             const payload = { ...user };
             const response = await axios.post(url, payload);
             handleLogin(response.data);
+            closeModal();
         } catch (error) {
             catchErrors(error, setError);
+            console.log(user)
+            
         } finally {
             setLoading(false);
         }
@@ -51,8 +59,8 @@ const ModalLogin = ({isOpen, closeModal }) => {
             transform: 'translate(-50%, -50%)'
         }
     };
- console.log(isOpen)
-
+ 
+ console.log(baseUrl)
     return (
         <ReactModal
             isOpen={isOpen}
@@ -67,12 +75,12 @@ const ModalLogin = ({isOpen, closeModal }) => {
                         <h1>Fazer Login:</h1>
                         <p>Informe seu nome e e-mail para fazer login e acessar seus pedidos.</p>
                     </header>
-                    <form method="POST" >
+                    <form method="POST" onSubmit={handleSubmit} >
                         <input className="radius" type="email" name="email" value={user.email} onChange={handleChange} placeholder="E-mail:" />
                         <input className="radius" type="password" name="password" value={user.password} onChange={handleChange} placeholder="Senha:" />
-                        <button className="btn transition radius icon-success" type="submit" href="/" title="Minha conta" onClick={closeModal}  >Fazer Login</button>
+                        <button className="btn transition radius icon-success" type="submit"  title="Minha conta" >Fazer Login</button>
                     </form>
-                    <a href="#" title="Recuperar senha" className="theme_login_box_recover transition icon-alert" >Esqueci minha senha</a>
+                    <a href="#" title="Recuperar senha" className="theme_login_box_recover transition icon-alert" onClick={closeModal} >Esqueci minha senha</a>
                 </div>
             </div>
         </ReactModal>
